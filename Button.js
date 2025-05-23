@@ -21,13 +21,13 @@ export default class Button extends Component {
   static propTypes = {
     ...TouchableOpacity.propTypes,
     accessibilityLabel: PropTypes.string,
-    allowFontScaling: TextPropTypes.allowFontScaling,
-    containerStyle: ViewPropTypes.style,
-    disabledContainerStyle: ViewPropTypes.style,
+    allowFontScaling: PropTypes.allowFontScaling,
+    containerStyle: PropTypes.style,
+    disabledContainerStyle: PropTypes.style,
     disabled: PropTypes.bool,
-    style: TextPropTypes.style,
-    styleDisabled: TextPropTypes.style,
-    childGroupStyle: ViewPropTypes.style,
+    style: PropTypes.style,
+    styleDisabled: PropTypes.style,
+    childGroupStyle: PropTypes.style,
     androidBackground: PropTypes.object,
   };
 
